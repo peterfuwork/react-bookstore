@@ -1,0 +1,25 @@
+.container-custom {
+    .book {
+        border-top:1px solid #000;
+        border-left:1px solid #000;
+        border-right:1px solid #000;
+        padding: 1rem;
+        background-color: papayawhip;
+        &:last-child {
+            border-bottom:1px solid #000;
+        }
+        .title, .author {
+            span {
+                .hl {
+                    background-color:yellow;
+                }
+                .hll {
+                    background-color:lightpink;
+                }
+                .hlll {
+                    background-color:lightgreen;
+                }
+            }
+        }
+    }
+}
