@@ -6,4 +6,6 @@ To run the program
 - npm start
 
 ## Other Notes
+
 - You'll need react-string-replace to make the highlight to work.
+- This project requires galvanize collective-api to make it to work.
